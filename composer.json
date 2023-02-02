@@ -1,0 +1,24 @@
+{
+    "name": "tinymeng/openai-chatgpt",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tinymeng\\ChatGpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JiaMeng Ma",
+            "email": "666@majiameng.com",
+            "homepage": "http://majiameng.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "keywords": [
+        "ChatGpt",
+        "chatbot",
+        "chat-gpt"
+    ]
+}
