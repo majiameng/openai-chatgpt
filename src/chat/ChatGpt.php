@@ -1,6 +1,6 @@
 <?php
 
-namespace Tinymeng\ChatGpt;
+namespace tinymeng\chatGpt\chat;
 
 use GuzzleHttp\Cookie\CookieJar;
 

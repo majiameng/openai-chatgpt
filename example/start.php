@@ -2,7 +2,7 @@
 
 include '../vendor/autoload.php';
 
-use Tinymeng\ChatGpt\ChatGpt;
+use tinymeng\chatGpt\chat\ChatGpt;
 
 // 填任意一个就可以了
 $sessionToken = '';
