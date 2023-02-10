@@ -31,7 +31,7 @@ $chatGpt->setConversation($yourConversationID, $yourParentMessageID);
 **Step 1. 克隆本项目到本地**
 
 ```bash
-https://github.com/tinymeng/ChatGPT.git
+git@github.com:majiameng/openai-chatgpt.git
 ```
 
 **Step 2. 配置你的环境变量**
