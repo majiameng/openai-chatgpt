@@ -1,6 +1,6 @@
-# onekb/ChatGPT
+# tinymeng/ChatGPT
 
-php实现调用ChatGPT，参考TS版本 [tinymeng/chatgpt-bot](https://github.com/idootop/chatgpt-bot) 编写，感谢作者。部分代码由 ChatGPT 转译。
+php实现调用ChatGPT，参考TS版本 [idootop/chatgpt-bot](https://github.com/idootop/chatgpt-bot) 编写，感谢作者。部分代码由 ChatGPT 转译。
 
 ![](./screenshots/conch.jpeg)
 ![](./screenshots/demo.png)
@@ -8,19 +8,19 @@ php实现调用ChatGPT，参考TS版本 [tinymeng/chatgpt-bot](https://github.co
 # Installing
 
 ```php
-composer require onekb/chat-gpt
+composer require tinymeng/openai-chatgpt
 ```
 
 # Usage
 
 ```php
-$chatGPT=new \Onekb\ChatGpt\ChatGpt($yourSessionToken, $yourAuthorization, $userAgent, $cfClearance); // 前两者二选一填写，获取方法见下方。后两者必填。
+$chatGPT=new \tinymeng\ChatGpt\ChatGpt($yourSessionToken, $yourAuthorization, $userAgent, $cfClearance); // 前两者二选一填写，获取方法见下方。后两者必填。
 
 // 简单使用
 var_dump($chatGPT->ask('你好'));
 
 // 设置代理
-\Onekb\ChatGpt\Di::set('proxy', 'http://127.0.0.1:8899');
+\tinymeng\ChatGpt\Di::set('proxy', 'http://127.0.0.1:8899');
 
 // 设置谈话参数（继续会话）
 $chatGpt->setConversation($yourConversationID, $yourParentMessageID);
@@ -31,7 +31,7 @@ $chatGpt->setConversation($yourConversationID, $yourParentMessageID);
 **Step 1. 克隆本项目到本地**
 
 ```bash
-https://github.com/onekb/ChatGPT.git
+https://github.com/tinymeng/ChatGPT.git
 ```
 
 **Step 2. 配置你的环境变量**

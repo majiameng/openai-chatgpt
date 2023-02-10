@@ -1,11 +1,13 @@
 {
     "name": "tinymeng/openai-chatgpt",
+    "description": "wechat sina qq alipay twitter google line facebook oauth",
+    "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "tinymeng\\chatGpt\\": "src/"
-        }
-    },
+    "keywords": [
+        "ChatGpt",
+        "chatbot",
+        "chat-gpt"
+    ],
     "authors": [
         {
             "name": "JiaMeng Ma",
@@ -14,11 +16,12 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.5"
+        "php": ">=7.0",
+        "tinymeng/tools": "^1.1.0"
     },
-    "keywords": [
-        "ChatGpt",
-        "chatbot",
-        "chat-gpt"
-    ]
+    "autoload": {
+        "psr-4": {
+            "tinymeng\\chatGpt\\": "src/"
+        }
+    }
 }
